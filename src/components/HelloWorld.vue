@@ -98,9 +98,9 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
-  }
-};
+    msg: String,
+  },
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -118,5 +118,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.hello {
+  height: 200vh;
 }
 </style>
